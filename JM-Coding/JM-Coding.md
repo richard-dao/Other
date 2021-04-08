@@ -1,6 +1,7 @@
-//Links to JM Coding Classes Taught by Mr. Blalock from 6th, 7th, and 8th Grade
+## Links to JM Coding Classes Taught by Mr. Blalock from 6th, 7th, and 8th Grade
 <br>
 http://volleyballisswag.weebly.com/
+<br>
 http://ptrgames.weebly.com/
 
 Ignore the terrible names and cringy bios
