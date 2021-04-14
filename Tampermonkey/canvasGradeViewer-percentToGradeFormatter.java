@@ -20,63 +20,63 @@ public class main {
 			String text = Double.toString(Math.abs(s.get(i)));
 			
 			if (s.get(i) < 60.00) {
-				value = "\"F\" ";
-				sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+				value = "\"F | " + Double.toString(s.get(i)) + " %" + "\"";
+				sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 			}
 			else if (s.get(i) < 70.00) {
 				if (s.get(i) < 63.00) {
-					value = "\"D-\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"D- | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else if (s.get(i) < 67.00) {
-					value = "\"D\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"D | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else {
-					value = "\"D+\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"D+ | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 			}
 			else if (s.get(i) < 80.00) {
 				if (s.get(i) < 73.00) {
-					value = "\"C-\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"C- | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else if (s.get(i) < 77.00) {
-					value = "\"C\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"C | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else {
-					value = "\"C+\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"C+ | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 			}
 			else if (s.get(i) < 90.00) {
 				if (s.get(i) < 83.00) {
-					value = "\"B-\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"B- | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else if (s.get(i) < 87.00) {
-					value = "\"B\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"B | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else {
-					value = "\"B+\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"B+ | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 			}
 			else if (s.get(i) <= 100.00) {
 				if (s.get(i) < 93.00) {
-					value = "\"A-\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"A- | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else if (s.get(i) < 97.00) {
-					value = "\"A\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"A | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 				else {
-					value = "\"A+\"";
-					sd.add("[/" + Double.toString(s.get(i)) + "%/i, " + value + "],");
+					value = "\"A+ | " + Double.toString(s.get(i)) + " %" + "\"";
+					sd.add("[/" + Double.toString(s.get(i)) + "%/gi, " + value + "],");
 				}
 			}
 		}
