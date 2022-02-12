@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Replace Text
-// @namespace    https://github.com/erickRecai
-// @version      1.05.03
-// @description  Replaces text with other text.
-// @author       guyRicky
+// @name         Green Badge Spoofer
+// @namespace    https://github.com/erickRecai and https://github.com/richard-dao
+// @version      1.0
+// @description  Spoofs green on green badge.
+// @author       guyRicky, richard-dao
 
 // @match        https://studenthealth.ucsc.edu/SurveyFormsHome.aspx?success=1
 // @include      https://studenthealth.ucsc.edu/home.aspx
